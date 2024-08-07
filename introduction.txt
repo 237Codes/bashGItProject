@@ -1,0 +1,2 @@
+Reporting for user: codio
+The home directory is: /home/codio

@@ -1,0 +1,12 @@
+Disk Space Usage Report
+Filesystem     1K-blocks    Used Available Use% Mounted on
+none             5120000  348428   4238452   8% /
+none                 492       4       488   1% /dev
+efivarfs             128       5       119   4% /sys/firmware/efi/efivars
+/dev/root       30297152 6322168  23958600  21% /usr/share/cdb
+/dev/loop51      5120000  348428   4238452   8% /tmp
+tmpfs           16152624       0  16152624   0% /dev/shm
+tmpfs            6461052     160   6460892   1% /run
+tmpfs               5120       0      5120   0% /run/lock
+tmpfs               4096       0      4096   0% /sys/fs/cgroup
+tmpfs              78640       0     78640   0% /run/user/1000

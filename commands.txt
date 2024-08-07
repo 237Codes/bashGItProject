@@ -1,0 +1,8 @@
+echo ”Reporting from the commands file:” 
+echo "The current user is:"
+echo $USER
+echo “current directory is:” 
+pwd 
+echo “Date is:” 
+date 
+ 

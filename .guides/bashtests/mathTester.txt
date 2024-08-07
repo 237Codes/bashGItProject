@@ -1,0 +1,102 @@
+.guides/bashtests/init.sh ; clear
+pwd
+mkdir trial-run
+touch testing.py
+pwd
+cd trial-run
+cd testing.py
+pwd
+ls
+clear
+python extract_emails.py
+pwd
+clear;
+pwd
+mkdir hello-world
+ls
+cd hello-world
+pwd
+touch hello.py
+ls
+clear;
+pwd
+mkdir hello-world
+cd hello-world
+pwd
+ls
+python3 hello.py
+nano hello.py
+nano hello.py
+python3 hello.py
+nano hello.py
+python3 hello.py
+pwd
+cd hello-world
+pwd
+git init
+git remote add origin git@github.com:237Codes/hello-world.git
+git remote -v
+git add hello.py
+git commit -m 'initial commit'
+git push 
+bash --version
+echo $SHELL
+clear
+export IRONMAN=Tony
+echo $IRONMAN
+env
+unset IRONMAN
+echo $IRONMAN
+printenv
+clear
+$USER
+PATH
+echo "I did it!"
+pwd
+cd ..
+pwd
+cd ~/workspace
+echo Hey, all you people!
+printf "Won't you listen to me?"
+cat commands.txt
+source /home/codio/workspace/commands.txt
+clear
+bash Challenge/challenge1.sh
+pwd > directory.txt
+cat directory.txt
+pwd > directory.txt
+cat directory.txt
+ls >> directory.txt
+cat directory.txt
+ls /fakedir
+ls /fakedir 1>output.txt 2>error.txt
+cat output.txt
+cat error.txt
+cat < champs.txt
+cat << ThisIsTheEnd
+Is this the real life?
+Is this just fantasy?
+Caught in a landslide,
+No escape from reality
+ThisIsTheEnd
+
+echo "Disk Space Usage Report" > diskspace.txt
+df >> diskspace.txt
+cat < diskspace.txt
+cat << I have reported the usage of disk space in KBs.
+If you'd like, I can also run the report in megabytes
+It would be as easy as using the df -m command
+EndOfReport
+pwd
+clear
+
+
+
+q
+
+cat << EndOfReport
+I have reported the usage of disk space in KBs
+If you'd like, I can also run the report in megabytes
+It would be as easy as using the df -m command
+EndOfReport
+
